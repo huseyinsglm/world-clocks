@@ -34,20 +34,29 @@
 font-family: 'Rubik', sans-serif;">
 <!-- Add your site or application content here -->
 <div style="text-align: right">
-  <div style="text-align: initial;margin: 15% auto;width: 69%;">
+  <div style="text-align: initial;margin: 15% auto;width: 65%;">
     <div style="float: right;margin-bottom:10px">
-      <select id="mySelect" style="background-color:rgb(1 182 224);color:white;border-style: hidden"
+
+      <select id="mySelect" style="background-color: rgb(1 157 199);
+    color: white;
+    border-style:hidden;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 3px solid #ffffff;"
+
               onchange="myFunction()">
-        <option value=".">MAKE A CHOİCE
+        <option value=".">COUTRY
         <option value="WASHINGTON">WASHINGTON
-        <option value="ISTANBUL">ISTANBUL
+        <option value="ISTANBUL">İSTANBUL
         <option value="LONDON">LONDON
         <option value="TOKYO">TOKYO
         <option value="RABAT">RABAT
         <option value="BERLİN">BERLİN
       </select>
     </div>
-    <div style="display: flex">
+    <div style="display: flex; align-items: flex-end;">
       <div id="day" onload="currentTime()"
            style="font-size:4rem;margin-top:18px;margin-right: 20px;color:white;font-weight:600">
       </div>
@@ -59,7 +68,8 @@ font-family: 'Rubik', sans-serif;">
       <div id="clock" onload="currentTime()" style="font-size:10rem;color:white;font-weight:900">
       </div>
       <div id="meridian" onload="currentTime()"
-           style="font-size:7rem;margin-top: 35px;color:white;font-weight:900">
+           style="font-size:7rem;display: flex;
+    align-items: flex-end;color:white;font-weight:900">
       </div>
     </div>
 
