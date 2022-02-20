@@ -28,6 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
 </head>
 
 <body style="background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(0,212,255,1) 100%);line-height:1;
@@ -36,24 +37,21 @@ font-family: 'Rubik', sans-serif;">
 <div style="text-align: right;display:flex">
   <div style="text-align: initial;margin: 15% auto;width: 60%;">
     <div style="float: right;margin-bottom:10px">
-
-      <select id="mySelect" style="background-color: rgb(1 157 199);
+      <select id="mySelect" name="selection" style="background-color: rgb(1 157 199);
     color: white;
     border-style:hidden;
     font-size: 1.5rem;
     font-weight: 200;
     padding: 0.75rem;
     border-radius: 10px;
-    border: 3px solid #ffffff;"
-
-              onchange="myFunction()">
-        <option value="."> Select Country
-        <option value="WASHINGTON">Washington
-        <option value="ISTANBUL">İstanbul
-        <option value="LONDON">London
-        <option value="TOKYO">Tokyo
-        <option value="RABAT">Rabat
-        <option value="BERLİN">Berlin
+    border: 3px solid #ffffff;">
+        <option value="Europe/Istanbul">İstanbul</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Africa/Casablanca">Casablanca</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Australia/Melbourne">Melbourne</option>
       </select>
     </div>
     <div style="display: flex; align-items: flex-end;margin-top:70px">
@@ -96,7 +94,7 @@ font-family: 'Rubik', sans-serif;">
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="js/showTime.js"></script>
+<script src="./js/showTime.js"></script>
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
   window.ga = function () {
