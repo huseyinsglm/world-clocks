@@ -33,8 +33,8 @@
 <body style="background: linear-gradient(90deg,rgba(2,0,36,1) 0%,rgba(0,212,255,1) 100%);line-height:1;
 font-family: 'Rubik', sans-serif;">
 <!-- Add your site or application content here -->
-<div style="text-align: right">
-  <div style="text-align: initial;margin: 15% auto;width: 65%;">
+<div style="text-align: right;display:flex">
+  <div style="text-align: initial;margin: 15% auto;width: 60%;">
     <div style="float: right;margin-bottom:10px">
 
       <select id="mySelect" style="background-color: rgb(1 157 199);
@@ -47,21 +47,21 @@ font-family: 'Rubik', sans-serif;">
     border: 3px solid #ffffff;"
 
               onchange="myFunction()">
-        <option value=".">COUTRY
-        <option value="WASHINGTON">WASHINGTON
-        <option value="ISTANBUL">İSTANBUL
-        <option value="LONDON">LONDON
-        <option value="TOKYO">TOKYO
-        <option value="RABAT">RABAT
-        <option value="BERLİN">BERLİN
+        <option value="."> Select Country
+        <option value="WASHINGTON">Washington
+        <option value="ISTANBUL">İstanbul
+        <option value="LONDON">London
+        <option value="TOKYO">Tokyo
+        <option value="RABAT">Rabat
+        <option value="BERLİN">Berlin
       </select>
     </div>
-    <div style="display: flex; align-items: flex-end;">
+    <div style="display: flex; align-items: flex-end;margin-top:70px">
       <div id="day" onload="currentTime()"
-           style="font-size:4rem;margin-top:18px;margin-right: 20px;color:white;font-weight:600">
+           style="font-size:4rem;margin-top:18px;margin-right: 20px;color:#bdbdbd;font-weight:600">
       </div>
       <div id="date" onload="currentTime()"
-           style="font-size:3rem;margin-top:30px;color:white;font-weight:600">
+           style="font-size:3rem;margin-top:30px;color:#bdbdbd;font-weight:600">
       </div>
     </div>
     <div style="display: flex;justify-content: space-between;">
@@ -81,10 +81,10 @@ font-family: 'Rubik', sans-serif;">
     bottom: 0;
     width: 100%;
     height: 50px;color: white;">
-  <div >
+  <div>
     Designed by
     <a href="https://github.com/huseyinsglm" target="_blank">
-      <img src="img/clocklogo.png" style="width:40px;height:35px"></a>
+      <img src="img/clocklogo.png" style="width:35px;height:35px"></a>
   </div>
 </footer>
 
