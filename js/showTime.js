@@ -1,6 +1,6 @@
 //import moment from "moment-timezone";
 
-const moment = require('moment-timezone');
+//const moment = require('moment-timezone');
 
 
 const days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
